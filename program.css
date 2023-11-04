@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #cd6200;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header img {
+    height: 55px;
+    width: 55px;
+    /* margin-left: 20px; */
+}
+
+header .name {
+    color: white;
+    font-family: "Limelight", sans-serif;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+header .bottom {
+    background-color: #e9d733;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 1000px;
+    height: 55px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .bottom:hover {
+    scale: 0.95;
+    background-color: #e9d733;
+}
+
+header .logoblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid #cd6200;
+    height: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cd6200;
+    scale: 1.03;
+}
+
+.marginleft {
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+}
+
+.chooseblock {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.chooseblock img {
+    height: 100%;
+    border-radius: 20px;
+}
+
+i {
+    border: solid #cd6200;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 25%;
+    width: 25%;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: -0.9vh;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left: 0.9vh;
+}
+
+.arrow {
+    width: 6vh;
+    height: 6vh;
+    /* border: .4vh solid #cd6200; */
+    cursor: pointer;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow:hover {
+    scale: 1.1;
+}
+
+.priceblock {
+    display: flex;
+    align-items: center;
+    /* width: 55vh; */
+    margin-top: 2vh;
+}
+
+.priceblock p {
+    color: #cd6200;
+    font-size: 2em;
+}
+
+.priceblock .price {
+    border: 2px solid #cd6200;
+    border-radius: 100px;
+    color: white;
+    font-size: 2em;
+    width: 1000px;
+    display: flex;
+    padding-left: .5em;
+    padding-right: .1em;
+}
+
+.priceblock .add {
+    background-color: #e9d733;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    border-radius: 1000px;
+    height: 100%;
+    width: 32vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+}
+
+.priceblock .add:hover {
+    scale: 1.05;
+}
+
+.addonblock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.addblock {
+    color: white;
+    font-size: 2em;
+    width: 25vw;
+    border: 2px solid #cd6200;
+    border-radius: 22.5px 22.5px 20px 20px;
+}
+
+.addblock:hover {
+    scale: 1.01;
+}
+
+.addblock img {
+    border-bottom: 2px solid #cd6200;
+    width: 100%;
+    height: 15vw;
+    border-radius: 20px 20px 0 0;
+}
+
+.addblock .title {
+    border-radius: 0 0 20px 20px;
+    /* border: 2px solid #cd6200; */
+    text-align: center;
+    margin-top: -7.55px;
+}
+
+.addleft {
+    margin-left: 4vw;
+}
+
+footer {
+    border-top: 2px solid #cd6200;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+}

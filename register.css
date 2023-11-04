@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #cd6200;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header img {
+    height: 55px;
+    width: 55px;
+}
+
+header .name {
+    color: white;
+    font-family: "Limelight", sans-serif;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+header .bottom {
+    background-color: #e9d733;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 1000px;
+    height: 55px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header .bottom:hover {
+    scale: 0.95;
+    background-color: #e9d733;
+}
+
+header .logoblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid #cd6200;
+    height: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cd6200;
+    scale: 1.03;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 650px;
+}
+
+main .title {
+    color: #cd6200;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.7em;
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input {
+    outline: none;
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5px;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    width: 90%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: 2px solid #cd6200;
+    border-radius: 1000px;
+    background-color: black;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+input[type="button"] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e9d733;
+    color: black;
+    font-size: 2em;
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    width: 50%;
+    height: 1.4em;
+    margin: 8px 0;
+}
+
+input,
+select,
+textarea {
+    color: #ffffff;
+}
